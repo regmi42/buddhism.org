@@ -7,8 +7,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .logo{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
 .social{
     width: 100%;
@@ -24,6 +24,9 @@ body{
     border: 4px solid #ccc;
     /* border-radius: 5px; */
 }
+.carousel-inner{
+    max-height: 350px;
+}
 @media only screen and (max-width: 576px )  {
     .article-image{
         height: 20vh;
@@ -34,10 +37,11 @@ body{
     text-align: justify;
 }
 .video div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-.video, .video iframe{
-    width: 100%;
+.video iframe{
+    width: 90%;
+    border-radius: 1.25rem;
 }
 .cal iframe,.map iframe{
     width: 100%;
@@ -46,4 +50,29 @@ body{
 .map iframe{
     width: 100%;
     height: 250px;
+}
+
+/* footer */
+footer ul{
+    list-style: none;
+    box-sizing: border-box;
+}
+footer ul li{
+    margin: 0.675rem 0;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+footer a:hover{
+    color: aqua;
+}
+footer h5{
+    text-transform: uppercase;
+}
+.footer-top{
+    background: #003c20;
+}
+.footer-bottom{
+    background: #198754db;
 }
