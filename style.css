@@ -5,12 +5,24 @@ ul li{
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background: #c8d9fb57;
+    background: #c8d9fb;
+}
+
+
+
+header{
+    position: sticky;
+    top: 0px;
+    background: inherit;
+    z-index: 3;
 }
 .logo{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+}
+.flag{
+    max-height: 70px;
 }
 .social{
     width: 100%;
@@ -70,11 +82,7 @@ body{
 }
 .cal iframe,.map iframe{
     width: 100%;
-    height: 250px;
-}
-.map iframe{
-    width: 100%;
-    height: 250px;
+    height: 350px;
 }
 
 /* footer */
@@ -109,7 +117,23 @@ footer h5{
 
 
 @media only screen and (max-width: 576px )  {
+    header .title{
+        font-size: 20px;
+    }
+    header .flag{
+        max-height: 40px;
+    }
+    .navbar-toggler{
+        padding: 4px;
+    }
     .article-image{
         height: 20vh;
+    }
+   
+
+
+    /* footer */
+    .footer-bottom{
+        font-size: 12px;
     }
 }
