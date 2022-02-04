@@ -45,17 +45,17 @@ header{
     font-size: 0.875rem;
     text-align: justify;
 }
-.archives, .categories{
+.archives, .categories,.donation{
     border: 1px solid rgb(141, 139, 139);
 }
-.archives h4{
+.archives h4, .donation h4{
     border-bottom: 2px solid rgb(107, 106, 106);
 }
 .archives>h4>i{
     margin-left: 5px;
     margin-right: 15px;
 }
-.archives ul li{
+.archives ul li,.donation ul li{
     width: 95%;
     margin: 0 auto;
     background: #e6e6e673;
@@ -78,7 +78,6 @@ header{
 
 .video iframe{
     width: 90%;
-    border-radius: 1.25rem;
 }
 .cal iframe,.map iframe{
     width: 100%;
