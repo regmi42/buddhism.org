@@ -35,7 +35,7 @@ header{
     width: 45px;
 }
 .article-image{
-    background-image: url(/img/download.jpg);
+    background-image: url(https://github.com/regmi42/buddhism.org/blob/main/img/download.jpg?raw=true);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
