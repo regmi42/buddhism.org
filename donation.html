@@ -41,64 +41,53 @@
         </nav>
     </header>
 
-
-
-    <section class="container row mx-auto px-0 contact">
-      <h3 class="col-md-12">Contact US</h3>
-      <div class="map col-md-8">
-          <h4 class="pt-2 pb-3">Location</h4>
-          <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.454665464851!2d85.31141892113209!3d27.70324495725481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb185530e927fb%3A0xb8c1814683f64979!2zTmV3IFJvYWQgR2F0ZSwg4KSo4KSv4KS-4KSBIOCkuOCkoeCklSwgS2F0aG1hbmR1IDQ0NjAw!5e0!3m2!1sen!2snp!4v1642868195588!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-      </div>
-      <div class="col-md-4 contact-address">
-        <ul>
-          <h5 class="pt-2 pb-3">Office</h5>
-          <li>Phone: +977-12345678,+977-12345678</li>
-          <li>Fax: +977-1234567890</li>
-          <li>Mobile: +977-1234567890</li>
-          <li>Email: abc@sth.com</li>
-          <li>Address: Your address here.</li>
-        </ul>
-        <ul class="py-3">
-          <h5 class="pb-2">Support</h5>
-          <li>Phone: +977-12345678,+977-12345678</li>
-          <li>Mobile: +977-1234567890</li>
-          <li>Email: support@sth.com</li>
-        </ul>
-      </div> 
-      <form action="" class="col-md-12 row contact-form my-5">
-        <div class="col-md-6">
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <label for="name" class="form-label mb-0 me-3">Name:</label>
-            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name">
-          </div>
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <label for="ph-num" class="form-label mb-0 me-3">Phone No:</label>
-            <input type="number" class="form-control" id="ph-num" aria-describedby="Phone" placeholder="Phone Number">
-          </div>
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <label for="email" class="form-label mb-0 me-3">Email:</label>
-            <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email">
-          </div>
-          
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <label for="address" class="form-label mb-0 me-3">Address:</label>
-            <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Address">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="input-group mb-3">
-            <textarea class="form-control" aria-label="With textarea" placeholder="Your Message Here...."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+    <section class="container row mx-auto px-0">
+      <form action="" class="my-3">
+        <div class="col-md-8 row mx-auto p-3 donation-form">
+            <h5 class="pb-2">Donation Form</h5>
+            <div class="col-md-6 mb-3">
+              <label for="first-name" class="form-label mb-0 me-3">First Name:</label>
+              <input type="text" class="form-control" id="first-name" aria-describedby="first name" placeholder="First Name">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="last-name" class="form-label mb-0 me-3">Last Name:</label>
+              <input type="text" class="form-control" id="last-name" aria-describedby="last name" placeholder="Last Name">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="ph-num" class="form-label mb-0 me-3">Phone No:</label>
+              <input type="number" class="form-control" id="ph-num" aria-describedby="Phone" placeholder="Phone Number">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="email" class="form-label mb-0 me-3">Email:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="amt" class="form-label mb-0 me-3">Donation Amount:</label>
+              <input type="number" class="form-control" id="amt" aria-describedby="Donation amount" placeholder="How much do you want to donate?">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="ccnumber">Credit Card Number</label>
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="0000 0000 0000 0000" autocomplete="email">
+                    <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="fas fa-credit-card my-1"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="billing-address" class="form-label mb-0 me-3">Billing Address:</label>
+                <input type="text" class="form-control" id="billing-address" aria-describedby="billing address" placeholder="Billing Address">
+            </div>
+            <div class="my-3 text-center">
+                <button class="btn btn-sm btn-danger px-3 me-3" type="reset"><i class="fas fa-undo"></i></i> Reset</button>
+                <button class="btn btn-sm btn-success px-3 ms-3" type="submit">Continue<i class="fas fa-angle-right"></i></button>
+            </div>
         </div>
       </form>
-      
-      
     </section>
 
-
-
-    
     <footer class="container-fluid bg-success text-white mt-3 footer-top d-none d-sm-block d-md-block d-xl-block">
       <div class="container row mx-auto px-0 pt-4 spb-3">
         <div class="col-md-4 info ps-0">

@@ -24,6 +24,10 @@ header{
 .flag{
     max-height: 70px;
 }
+.donation-btn a{
+    text-decoration: none;
+    color: inherit;
+}
 .social{
     width: 100%;
 }
@@ -109,10 +113,34 @@ footer h5{
     background: #198754db;
 }
 
+/* Donation */
+.donation-form{
+    background-color: #e6e6e673;
+    border: 1px solid #bfbdbdbd;
+    border-radius: 5px;
+}
 
 
 
 
+/* policy */
+.policy ul li{
+    list-style: disc;
+    margin-left: 15px;
+}
+.event-date{
+    width: 20%;
+}
+/* contact US */
+.contact-address{
+    line-height: 2;
+}
+.contact-form label{
+    width: 25%;
+}
+.contact-form textarea{
+    min-height: 145px;
+}
 
 
 @media only screen and (max-width: 576px )  {
@@ -134,5 +162,15 @@ footer h5{
     /* footer */
     .footer-bottom{
         font-size: 12px;
+    }
+
+    .contact-address ul{
+        padding-left: 0px;
+    }
+    .upcomming-events ul{
+        padding-left: 0;
+    }
+    .event-date{
+        width: 30%;
     }
 }
