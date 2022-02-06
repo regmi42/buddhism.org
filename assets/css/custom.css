@@ -55,10 +55,10 @@ header{
     font-size: 0.875rem;
     text-align: justify;
 }
-.archives, .categories,.donation{
+.archives, .categories,.donation, .events-calendar{
     border: 1px solid rgb(141, 139, 139);
 }
-.archives h4, .donation h4{
+.archives h4, .donation h4, .events-calendar h4{
     border-bottom: 2px solid rgb(107, 106, 106);
 }
 .archives>h4>i{
@@ -135,7 +135,24 @@ footer h5{
     margin-left: 15px;
 }
 .event-date{
-    width: 20%;
+    border: 1px solid rgb(197, 177, 177);
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.event-month{
+    color: #fff;
+    background-color: rgb(116, 140, 248);
+    border-bottom: 1px solid rgb(197, 177, 177);
+    padding: 5px;
+}
+.event-day{
+    font-size: 20px;
+    text-align: center;
+
+}
+.event-title{
+    font-weight: 500;
+    font-size: 20px;
 }
 /* contact US */
 .contact-address{
