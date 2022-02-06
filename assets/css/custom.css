@@ -7,7 +7,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: #f2fcf9;
 }
-
+.text-justify{
+    text-align: justify;
+}
 
 
 header{
@@ -110,10 +112,10 @@ footer a:hover{
 footer h5{
     text-transform: uppercase;
 }
-.footer-top{
+.footer-bottom{
     background: #003c20;
 }
-.footer-bottom{
+.footer-top{
     background: #198754db;
 }
 
