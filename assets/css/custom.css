@@ -10,7 +10,13 @@ body{
 .text-justify{
     text-align: justify;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
 
 header{
     position: sticky;
@@ -25,10 +31,6 @@ header{
 }
 .flag{
     max-height: 70px;
-}
-.donation-btn a{
-    text-decoration: none;
-    color: inherit;
 }
 .social{
     width: 100%;
@@ -55,10 +57,10 @@ header{
     font-size: 0.875rem;
     text-align: justify;
 }
-.archives, .categories,.donation, .events-calendar{
+.archives, .categories,.donation, .events-calendar, .video{
     border: 1px solid rgb(141, 139, 139);
 }
-.archives h4, .donation h4, .events-calendar h4{
+.archives h4, .donation h4, .events-calendar h4, .video h4{
     border-bottom: 2px solid rgb(107, 106, 106);
 }
 .archives>h4>i{
@@ -87,12 +89,20 @@ header{
 
 
 .video iframe{
-    width: 90%;
+    width: 100%;
+    padding: 5px;
+}
+.video-url{
+    flex-wrap: wrap;
+}
+.video-url div{
+    width: 50%;
 }
 .cal iframe,.map iframe{
     width: 100%;
     height: 350px;
 }
+
 
 /* footer */
 footer ul{
@@ -119,7 +129,7 @@ footer h5{
     background: #198754db;
 }
 
-/* Donation */
+/* Donation form*/
 .donation-form{
     background-color: #e6e6e673;
     border: 1px solid #bfbdbdbd;
@@ -164,12 +174,33 @@ footer h5{
 .contact-form textarea{
     min-height: 145px;
 }
+/* blog */
 .blog-img img{
     width: 100%;
 }
 .blog-article{
     text-align: justify;
     font-size: 18px;
+}
+.blog-container{
+    padding: 10px 5px;
+    border: 2px solid rgb(197, 177, 177);
+}
+
+/* button */
+.topBtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 30%;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    background-color: rgb(0, 171, 255);
+    border: none;
+}
+.btn-readmore, .btn-viewmore{
+    font-size: 12px;
 }
 
 @media only screen and (max-width: 576px )  {
