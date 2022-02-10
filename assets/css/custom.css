@@ -55,22 +55,28 @@ header{
     font-size: 0.875rem;
     text-align: justify;
 }
-.archives, .categories,.donation, .events-calendar, .video{
+.archives, .categories,.donation, .events-calendar, .video,.downloads{
     border: 1px solid rgb(141, 139, 139);
 }
-.archives h4, .donation h4, .events-calendar h4, .video h4{
+.archives h4, .donation h4, .events-calendar h4, .video h4,.downloads-title, .cat-title{
     border-bottom: 2px solid rgb(107, 106, 106);
 }
-.archives>h4>i{
+.archives>h4>i,.categories>h4>i,.downloads-title>i{
     margin-left: 5px;
     margin-right: 15px;
 }
-.archives ul li,.donation ul li{
+.archives ul li,.donation ul li,.downloads-inner ul li{
     width: 95%;
     margin: 0 auto;
     background: #e6e6e673;
 }
-.archives-title, .cat-title{
+.downloads-inner i{
+    font-size: 12px;
+}
+.downloads-inner ul li:nth-child(1){
+    border-bottom: 1px solid rgb(141, 139, 139);
+}
+.archives-title{
     border: 1px solid #bfbdbdbd;
 }
 .archives-blogs button, .archives-title button{
