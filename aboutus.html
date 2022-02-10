@@ -52,7 +52,7 @@
         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dignissimos voluptas error adipisci beatae pariatur. Deserunt nobis iste praesentium, itaque odio nulla suscipit repudiandae ipsum nesciunt obcaecati, quod expedita facilis nemo delectus cupiditate facere molestiae ullam ut. Ipsam, praesentium asperiores nulla dolor cum saepe totam quod eligendi dolores magni est sed molestiae recusandae officia consequatur.</p>
         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iusto autem veniam modi atque recusandae laudantium voluptatem architecto labore quisquam mollitia, adipisci est officia animi. Aliquid, inventore maxime. Ex, nobis. Autem excepturi sapiente, voluptas, obcaecati odit eum dolore deserunt harum in cumque iste dignissimos similique praesentium ipsam illum natus eligendi, quisquam quae. Eum impedit sint quod officia error recusandae, exercitationem non ullam quas exercitationem animi laudantium recusandae expedita fugiat reprehenderit minima dolore deleniti asperiores provident alias, non voluptas quisquam officia accusamus quis ea! Perferendis facere adipisci debitis quae aliquam voluptates a, cum officia distinctio delectus ad maxime illo modi itaque vel, labore ratione enim possimus animi exercitationem? Excepturi est ducimus pariatur mollitia eveniet neque iure!</p>
       </main>
-      <aside class="col-md-4">
+      <aside class="col-md-4 mt-2">
         <div class="text-center">
           <div class="search input-group mb-3">
             <input type="text" class="form-control" placeholder="Search" aria-label="Search">
@@ -102,22 +102,22 @@
             <div class="tab-pane fade show active p-3" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
               <h4>Title 1</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
             <div class="tab-pane fade p-3" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
               <h4>Title 2</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
             <div class="tab-pane fade p-3" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
               <h4>Title 3</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
             <div class="tab-pane fade p-3" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
               <h4>Title 4</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
           </div>
           
@@ -127,14 +127,14 @@
     <footer class="container-fluid bg-success text-white mt-3 footer-top d-none d-sm-block d-md-block d-xl-block">
       <div class="container row mx-auto px-0 pt-5 spb-3">
         <div class="col-md-4 info ps-0">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos porro repellendus tempore pariatur</p>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipi sicing elit. Quos porro repellendus tempore pariatur</p>
           <ul class="ps-0">
             <li>Address: Kathmandu, Bagmati, Nepal</li>
             <li>Phone: +977-12345678, +977-9876543210</li>
             <li>Fax: +977-12345678</li>
             <li>Email: abc@abc.com</li>
           </ul>
-          
         </div>
         <div class="col-md-4 row">
           <div class="col-md-6">
@@ -179,28 +179,25 @@
               <li><a href="">Some Links</a></li>
             </ul>
           </div>
-          <div class="social my-3 py-3">
-            <div class="d-flex justify-content-between">
-              <a href="#"><img src="img/fb.png" alt=""></i></a>
-              <a href="#"><img src="img/insta.png" alt=""></a>
-              <a href="#"><img src="img/link.png" alt=""></a>
-              <a href="#" class="pe-3"><img src="img/tw.png" alt=""></a>
-            </div>
-          </div>
+
         </div>
       </div>
     </footer>
     <footer class="container-fluid text-white footer-bottom">
-      <div class="container mx-auto px-0 py-3">
-        <span>2022@sometext here</span>
-        <span>|<a href="#">Privacy Policy</a>|</span>
-        <span>|<a href="#">Terms of Service</a>|</span>
+      <div class="container mx-auto px-0 d-flex justify-content-between">
+        <div class=" py-3 w-50">
+          <span>2022@sometext here</span>
+          <span>|<a href="#">Privacy Policy</a>|</span>
+          <span>|<a href="#">Terms of Service</a>|</span>
+        </div>
+        <div class="social py-3 w-50 text-end">
+          <span><a href="#"><img src="img/fb.png" alt=""></i></a></span>
+          <span><a href="#"><img src="img/insta.png" alt=""></a></span>
+          <span><a href="#"><img src="img/link.png" alt=""></a></span>
+          <span><a href="#" class="pe-3"><img src="img/tw.png" alt=""></a></span>
+            </div>
       </div>
     </footer>
-
-
-
-
     <button class="topBtn" onclick="goToTop()" id="topBtn"><i class="fas fa-chevron-up"></i></button>
 
     <!-- Javascript Bundle for Bootstrap -->

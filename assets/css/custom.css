@@ -180,11 +180,6 @@ footer h5{
     text-align: justify;
     font-size: 18px;
 }
-.blog-container{
-    padding: 10px 5px;
-    border: 2px solid rgb(197, 177, 177);
-}
-
 /* button */
 .topBtn{
     position: fixed;
