@@ -186,7 +186,7 @@
               <div class="p-0"><iframe src="https://www.youtube.com/embed/mvBLSJWk6HE?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></div>
               <div class="p-0"><iframe src="https://www.youtube.com/embed/mvBLSJWk6HE?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></div>
             </div>
-            <div class="px-0"><button class="btn btn-primary py-2 px-5 ms-2 mb-3"><a href="#">ViewMore</a></button></div>
+            <div class="px-0 text-end"><button class="btn btn-primary btn-viewmore me-2 mb-3"><a href="#">ViewMore</a></button></div>
           </div>
         </div>
         <div class="archives mt-3">
@@ -220,22 +220,22 @@
             <div class="tab-pane fade show active p-3" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
               <h4>Title 1</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
             <div class="tab-pane fade p-3" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
               <h4>Title 2</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
             <div class="tab-pane fade p-3" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
               <h4>Title 3</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
             <div class="tab-pane fade p-3" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
               <h4>Title 4</h4>
               <p>Put your Description Here. Put your Description Here.</p>
-              <button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button>
+              <div class="text-end"><button class="btn btn-primary btn-viewmore"><a href="#">ViewMore</a></button></div>
             </div>
           </div>
           
@@ -258,12 +258,7 @@
     <footer class="container-fluid bg-success text-white mt-3 footer-top d-none d-sm-block d-md-block d-xl-block">
       <div class="container row mx-auto px-0 pt-5 spb-3">
         <div class="col-md-4 info ps-0">
-          <div class="social mb-3 pb-3 d-flex justify-content-between">
-              <span><a href="#"><img src="img/fb.png" alt=""></i></a></span>
-              <span><a href="#"><img src="img/insta.png" alt=""></a></span>
-              <span><a href="#"><img src="img/link.png" alt=""></a></span>
-              <span><a href="#" class="pe-3"><img src="img/tw.png" alt=""></a></span>
-          </div>
+          
           <p>Lorem ipsum dolor sit amet consectetur adipi sicing elit. Quos porro repellendus tempore pariatur</p>
           <ul class="ps-0">
             <li>Address: Kathmandu, Bagmati, Nepal</li>
@@ -320,10 +315,18 @@
       </div>
     </footer>
     <footer class="container-fluid text-white footer-bottom">
-      <div class="container mx-auto px-0 py-3">
-        <span>2022@sometext here</span>
-        <span>|<a href="#">Privacy Policy</a>|</span>
-        <span>|<a href="#">Terms of Service</a>|</span>
+      <div class="container mx-auto px-0 d-flex justify-content-between">
+        <div class=" py-3 w-50">
+          <span>2022@sometext here</span>
+          <span>|<a href="#">Privacy Policy</a>|</span>
+          <span>|<a href="#">Terms of Service</a>|</span>
+        </div>
+        <div class="social py-3 w-50 text-end">
+          <span><a href="#"><img src="img/fb.png" alt=""></i></a></span>
+          <span><a href="#"><img src="img/insta.png" alt=""></a></span>
+          <span><a href="#"><img src="img/link.png" alt=""></a></span>
+          <span><a href="#" class="pe-3"><img src="img/tw.png" alt=""></a></span>
+            </div>
       </div>
     </footer>
     <button class="topBtn" onclick="goToTop()" id="topBtn"><i class="fas fa-chevron-up"></i></button>
