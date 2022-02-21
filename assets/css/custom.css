@@ -233,3 +233,7 @@ footer h5{
         width: 30%;
     }
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
