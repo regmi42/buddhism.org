@@ -32,6 +32,10 @@ header{
 .flag{
     max-height: 70px;
 }
+.navbar-nav a:hover, .navbar-nav .dropdown button:hover{
+    background-color: #ccc;
+    border-radius: 0;
+}
 .social img{
     width: 20px;
     margin-left: 15px;
