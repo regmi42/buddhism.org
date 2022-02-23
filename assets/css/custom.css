@@ -260,8 +260,21 @@ footer h5{
         width: 30%;
     }
 }
-.dropdown:hover .dropdown-menu {
+.drop{
+    position: relative;
+    display: inline-block;
+}
+.drop-menu{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.drop:hover .drop-menu {
     display: block;
-    margin-top: 8px; 
-    margin-left: -8px; 
+    top: 41px;
+    left: 0;
  }
